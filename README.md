@@ -1,7 +1,5 @@
 # mvl
-Four-valued Belnap logic in OCaml.
 
-# Introduction
 [Belnap](https://link.springer.com/chapter/10.1007/978-94-010-1161-7_2)
 four-valued logic, with strong/truth preserving implication, 
 consensus, gullibility operators. 
