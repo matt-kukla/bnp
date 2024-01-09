@@ -2,8 +2,7 @@
 
 (** @author Matthew Kukla *)
 
-(** Four truth values : {b T}rue, {b F}alse, {b B}oth, {b N}either.  These
-correspond to the subsets {T}, {F}, {T,F}, ∅ of {T,F}  *)
+(** Four truth values : {b T}rue, {b F}alse, {b B}oth, {b N}either *)
 type belnap = T | F | N | B
 
 type bnp_expr =
