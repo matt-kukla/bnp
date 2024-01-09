@@ -1,0 +1,3 @@
+(library
+ (name bnp)
+ (public_name bnp))

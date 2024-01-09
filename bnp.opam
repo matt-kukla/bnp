@@ -1,0 +1,13 @@
+opam-version: "2.0"
+name: "bnp"
+version: "0.1"
+synopsis:
+"Belnap four-valued logic, with strong/tcomth preserving implication, 
+consensus, gullibility operators"
+maintainer: "Matthew Kukla <matt.kukla@yandex.com>"
+authors: "Matthew Kukla <matt.kukla@yandex.com>"
+bug-reports: "Matthew Kukla <matt.kukla@yandex.com>"
+license: "GPL-3.0"
+homepage: "https://mkukla.net/doc/bnp/"
+depends: ["ocaml" "ocamlbuild"]
+build: [["dune" "build" "-p" name "-j" jobs "@install" ]]
